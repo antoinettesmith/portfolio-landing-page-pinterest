@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+  --font-serif: 'DM Serif Display', ui-serif, Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --color-primary-red: #dc2626;
+  --color-bg-dark: #0f1115;
+}
+
+:root {
+  /* Font families */
+  --font-serif: 'DM Serif Display', serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+  /* Colors from your design */
+  --color-primary-red: #dc2626; /* Tailwind red-600 */
+  --color-bg-dark: #0f1115;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+.serif-italic {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.hero-title {
+  font-family: var(--font-serif);
+  font-size: 5rem;
+  line-height: 1.1;
+}
+
+@media (max-width: 767px) {
+  .hero-title {
+    font-size: clamp(2.75rem, 12vw, 3.75rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 6rem;
+  }
+}
+
+.label-caps {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 12px;
+}
+
+/* Section headings (About, Work) — larger than .label-caps */
+.label-caps-lg {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .label-caps-lg {
+    font-size: 15px;
+    letter-spacing: 0.2em;
+  }
+}
