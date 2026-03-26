@@ -77,7 +77,7 @@ const App = () => {
         'JavaScript tool built to automate scheduling logic for Sales and Success teams, eliminating manual calculation errors during client onboarding.',
       tags: ['JavaScript', 'Automation', 'Node.js', 'Harness'],
       cta: 'View Project',
-      url: 'https://github.com/antoinettesmith/install-date-calculator',
+      url: 'https://antoinettesmith.github.io/install-date-calculator/',
       color: 'bg-orange-50',
       accent: 'text-orange-600',
     },
