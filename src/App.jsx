@@ -38,7 +38,7 @@ const PIN_CIRCLES_TILES = PIN_CIRCLES_SCREENSHOTS.filter(
 );
 
 /** Served from /public — update the file there when your resume changes */
-const RESUME_PDF = '/Antoinette-Smith-Resume.pdf';
+const RESUME_PDF = '/Antoinette Smith Resume.pdf';
 
 const App = () => {
   const projectsRef = useRef(null);
@@ -112,7 +112,7 @@ const App = () => {
             </button>
             <a
               href={RESUME_PDF}
-              download="Antoinette-Smith-Resume.pdf"
+              download="Antoinette Smith Resume.pdf"
               className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-8 py-3.5 font-bold text-white transition-all hover:bg-white/10"
             >
               <FileText size={18} /> Download Resume
@@ -537,7 +537,7 @@ const App = () => {
 
           <a
             href={RESUME_PDF}
-            download="Antoinette-Smith-Resume.pdf"
+            download="Antoinette Smith Resume.pdf"
             className="inline-flex items-center gap-2 rounded-full bg-red-600 px-10 py-4 font-bold text-white transition-all hover:bg-red-700"
           >
             <Download size={20} /> Download Resume
