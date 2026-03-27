@@ -71,7 +71,7 @@ const App = () => {
       accent: 'text-emerald-600',
     },
     {
-      title: 'Install Date Calculator',
+      title: 'Scheduling Tool',
       badge: 'Built at Raptive',
       description:
         'JavaScript tool built to automate scheduling logic for Sales and Success teams, eliminating manual calculation errors during client onboarding.',
